@@ -16,10 +16,14 @@ class App extends Component {
 
 onSearchChange (event) {
     
-    const filteredRobots=this.state.robots.filter(robots => {
-        return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
-    })
-    console.log(filteredRobots);
+    // const filteredRobots=state.robots.filter(robots => {
+    //     return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    // })
+
+    // console.log(filteredRobots);
+
+    //LEZIONEREACT APP 3 MINUTO 19
+    console.log(event.target.value);
 }
 
     render() {
